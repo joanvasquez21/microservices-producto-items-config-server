@@ -30,8 +30,8 @@ public class ProductoController {
 	@GetMapping("/listar")
 	public List<Producto> listar(){
 		return productoService.findAll().stream().map(  producto -> {
-			//producto.setPort( Integer.parseInt(env.getProperty("local.server.port")));
-			producto.setPort(port);
+			producto.setPort( Integer.parseInt(env.getProperty("local.server.port")));
+			//producto.setPort(port);
 			return producto;
 			//Convertimos a  tipo list
 		}).collect(Collectors.toList()) ;
@@ -40,9 +40,21 @@ public class ProductoController {
 	@GetMapping("/listar/{id}")
 	public Producto detalle(@PathVariable Long id) {
 		Producto producto = productoService.findById(id);
-		//producto.setPort( Integer.parseInt(env.getProperty("local.server.port")));
-		producto.setPort(port);
-		return productoService.findById(id);
+		producto.setPort( Integer.parseInt(env.getProperty("local.server.port")));
+		//producto.setPort(port);
+		/*
+		boolean ok = false;
+		if(!ok) {
+			throw new RuntimeException("No se pudo cargar el producto");
+		}*/
+		
+		try {
+			Thread.sleep(2000L);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
+		return producto;
 	}
 	
 }
