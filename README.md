@@ -30,3 +30,9 @@ Antes de que el microservicio se registre en eureka consultara en el servidor de
 
 - 7.- En el cliente añadimos el archivo boostrap.properties y agregamos estas configuracion, primero correra boostrap sobreescribiendo sobre application.properties
 - ![image](https://github.com/joanvasquez21/microservices-producto-items-config-server/assets/70104624/952cb459-4c66-4fc2-b0b7-f35246535f03)
+- 8.- Creamos el metodo en el cliente para leer en postman la configuracion
+ ![image](https://github.com/joanvasquez21/microservices-producto-items-config-server/assets/70104624/f549bfdd-5bc7-42f7-950c-7edaaa39cc93)
+
+- 9.- Usamos @refreshscope para actualizar los componentes que le estamos inyectando con las configuracion sin necesidad de reiniciar la aplicacion agregamos para eso la dependencia de actuator
+- 10 Creamos repositorio github para agregar las configs
+- ![image](https://github.com/joanvasquez21/microservices-producto-items-config-server/assets/70104624/335d8579-32f6-4f42-9626-91968a465fdf)
