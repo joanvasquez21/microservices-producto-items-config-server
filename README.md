@@ -27,3 +27,6 @@ Antes de que el microservicio se registre en eureka consultara en el servidor de
 ![image](https://github.com/joanvasquez21/microservices-producto-items-config-server/assets/70104624/2bbc87f5-f912-4d36-a5ad-88dbbcd9bfe1)
 - 6.- Vemos las configuraciones
 - ![image](https://github.com/joanvasquez21/microservices-producto-items-config-server/assets/70104624/408843df-6ad3-47c9-9713-cf53fab68543)
+
+- 7.- En el cliente añadimos el archivo boostrap.properties y agregamos estas configuracion, primero correra boostrap sobreescribiendo sobre application.properties
+- ![image](https://github.com/joanvasquez21/microservices-producto-items-config-server/assets/70104624/952cb459-4c66-4fc2-b0b7-f35246535f03)
