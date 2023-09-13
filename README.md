@@ -25,3 +25,5 @@ Antes de que el microservicio se registre en eureka consultara en el servidor de
 
 - 5.- Creamos un archivo donde guardaremos nuestras configuraciones
 ![image](https://github.com/joanvasquez21/microservices-producto-items-config-server/assets/70104624/2bbc87f5-f912-4d36-a5ad-88dbbcd9bfe1)
+- 6.- Vemos las configuraciones
+- ![image](https://github.com/joanvasquez21/microservices-producto-items-config-server/assets/70104624/408843df-6ad3-47c9-9713-cf53fab68543)
