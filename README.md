@@ -1,6 +1,9 @@
 # Centralizando la configuración con Sping cloud config server
 Lectura de configuracion (@value), configuración git, utilizando git en  github remotamente, implementando @refreshscope y @actuator
 El servidor de configuracion central(config server) facilita la centralizacion para sistemas distribuidos
+
+![image](https://github.com/joanvasquez21/microservices-producto-items-config-server/assets/70104624/8c4da0a5-54a1-44b2-94a3-f50c97f73631)
+
 - 1.- Agregamos la dependencia en el pom.xml
   ``` 
 <dependency>
