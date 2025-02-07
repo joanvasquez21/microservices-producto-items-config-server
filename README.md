@@ -36,3 +36,19 @@ Antes de que el microservicio se registre en eureka consultara en el servidor de
 - 9.- Usamos @refreshscope para actualizar los componentes que le estamos inyectando con las configuracion sin necesidad de reiniciar la aplicacion agregamos para eso la dependencia de actuator
 - 10 Creamos repositorio github para agregar las configs
 - ![image](https://github.com/joanvasquez21/microservices-producto-items-config-server/assets/70104624/335d8579-32f6-4f42-9626-91968a465fdf)
+ 
+####Contribuciones
+
+Si deseas contribuir a esta guía, eres bienvenido/a. Puedes ayudar de las siguientes formas:
+
+- Proporcionar mejoras en la documentación.
+
+- Agregar ejemplos prácticos o código adicional.
+
+- Reportar errores o problemas.
+
+- Crear nuevas secciones que puedan ser útiles para la comunidad.
+
+Para contribuir, simplemente realiza un fork del repositorio y envía un pull request con tus cambios. También puedes abrir un issue si deseas discutir mejoras antes de implementarlas.
+
+##### ¡Gracias por tu ayuda para mejorar esta guía! 🚀
